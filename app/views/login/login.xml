@@ -1,11 +1,13 @@
 <Page>
+	<Image src="res://logo" stretch="none" horizontalAlignment="center" />
+
     <StackLayout orientation="vertical">
 
         <TextField hint="Email Address" keyboardType="email" />
         <TextField hint="Password" secure="true" />
 
         <Button text="Sign in" />
-        <Button text="Sign up for Groceries" />
+        <Button text="Sign up for Groceries" cssClass="link" />
 
     </StackLayout>
 </Page>
