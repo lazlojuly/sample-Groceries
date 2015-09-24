@@ -1,3 +1,7 @@
 <Page>
-    <Label text="hello NativeScript" />
+	<TextField hint="Email Address" keyboardType="email" />
+	<TextField hint="Password" secure="true" />
+
+	<Button text="Sign in" />
+	<Button text="Sign up for Groceries" />
 </Page>
